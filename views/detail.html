@@ -1,0 +1,41 @@
+<h1 class="text-center" ng-bind="title"></h1>
+<form>
+    <div class="mb-3">
+      <label class="form-label">Tiêu đề</label>
+      <input type="text" class="form-control" placeholder="Nhập tiêu đề" ng-model="post.tieu_de" disabled >
+        <p ng-if="kiemTra.tieu_de" class="text-danger mt-1">Vui lòng nhập tiêu đề </p>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Nội dung</label>
+      <input type="text" class="form-control" placeholder="Nhập nội dung" ng-model="post.noi_dung" disabled>
+      <p ng-if="kiemTra.noi_dung" class="text-danger mt-1">Vui lòng nhập nội dung</p>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Tác giả</label>
+      <input type="text" class="form-control" placeholder="Nhập tác giả" ng-model="post.tac_gia" disabled>
+      <p ng-if="kiemTra.tac_gia" class="text-danger mt-1">Vui lòng nhập tác giả</p>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Thể loại</label>
+      <select ng-model="post.the_loai" class="form-select" disabled>
+        <option value="" disabled>Chọn thể loại</option>
+        <option value="Tiểu thuyết">Tiểu thuyết</option>
+        <option value="Tin tức">Tin tức</option>
+        <option value="Truyện ngắn">Truyện ngắn</option>
+      </select>
+      <p ng-if="kiemTra.the_loai" class="text-danger mt-1">Vui lòng chọn thể loại </p>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Ngày đăng</label>
+      <input type="date" class="form-control" placeholder="Chọn ngày đăng" ng-model="post.ngay_dang" disabled>
+      <p ng-if="kiemTra.ngay_dang" class="text-danger mt-1">Vui lòng chọn ngày đăng</p>
+    </div>
+    <div class="mb-3 text-center">
+      <a href="#!/edit/post/{{ post.id }}">
+        <button type="submit" class="btn btn-warning">Chỉnh sửa bài viết</button>
+      </a>
+      <a href="#!/list-post">
+        <button class="btn btn-secondary">Quay lại</button>
+      </a>
+    </div>
+</form>

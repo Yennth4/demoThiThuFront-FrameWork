@@ -1,0 +1,28 @@
+{
+  "post": [
+    {
+      "tieu_de": "Detective Conan",
+      "noi_dung": "Detective Conan, is a Japanese detective manga series written and illustrated by Gosho Aoyama.",
+      "tac_gia": "Aoyama Gosho",
+      "the_loai": "Truyện ngắn",
+      "ngay_dang": "1999-12-31T17:00:00.000Z",
+      "id": "4706"
+    },
+    {
+      "id": "f9e3",
+      "tieu_de": "Tiểu thuyết trinh thám",
+      "noi_dung": "Không có",
+      "tac_gia": "Hai Yen Nguyen",
+      "the_loai": "Tiểu thuyết",
+      "ngay_dang": "2024-02-18T17:00:00.000Z"
+    },
+    {
+      "id": "bd3d",
+      "tieu_de": "Doraemon",
+      "noi_dung": "Doraemon is the most recent anime TV series based on Fujiko F. Fujio's manga of the same name.",
+      "tac_gia": "Fujiko F. Fujio's",
+      "the_loai": "Truyện ngắn",
+      "ngay_dang": "2024-02-19T17:00:00.000Z"
+    }
+  ]
+}
